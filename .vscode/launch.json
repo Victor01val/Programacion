@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ1",
+            "request": "launch",
+            "mainClass": "EJ1",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ10",
+            "request": "launch",
+            "mainClass": "EJ10",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ2",
+            "request": "launch",
+            "mainClass": "EJ2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ3",
+            "request": "launch",
+            "mainClass": "EJ3",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ4",
+            "request": "launch",
+            "mainClass": "EJ4",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ5",
+            "request": "launch",
+            "mainClass": "EJ5",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ6",
+            "request": "launch",
+            "mainClass": "EJ6",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ7",
+            "request": "launch",
+            "mainClass": "EJ7",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ8",
+            "request": "launch",
+            "mainClass": "EJ8",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ9",
+            "request": "launch",
+            "mainClass": "EJ9",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch IIEjemplo1",
+            "request": "launch",
+            "mainClass": "IIEjemplo1",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch IIEjemplo2",
+            "request": "launch",
+            "mainClass": "IIEjemplo2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch colores",
+            "request": "launch",
+            "mainClass": "colores",
+            "projectName": "Programacion_6e8fc838"
+        }
+    ]
+}
