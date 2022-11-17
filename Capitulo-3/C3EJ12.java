@@ -4,7 +4,6 @@
 import java.util.Scanner;
 public class C3EJ12 {
   public static void main(String args[]) {
-
     Scanner s = new Scanner(System.in);
     {
       int num_uno = 0;
@@ -17,6 +16,7 @@ public class C3EJ12 {
       resultado = (num_dos * 2) - num_uno;
       int resultado2 = (int) resultado;
       System.out.println("La nota que tienes que sacar es " + resultado2);
+      s.close(); //Evitar errores
     }
   }
 }
