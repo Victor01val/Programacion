@@ -1,6 +1,5 @@
-/*
- *Víctor Valverde Olmedo Ejemplo 1
- Leer nombre y apellidos
+/*Víctor Valverde Olmedo Ejemplo 1
+*Leer nombre y apellidos
  */
 import java.util.Scanner;
 
