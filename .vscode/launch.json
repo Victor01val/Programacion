@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C4EJ5",
+            "request": "launch",
+            "mainClass": "C4EJ5",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ4",
+            "request": "launch",
+            "mainClass": "C4EJ4",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C1EJ4",
+            "request": "launch",
+            "mainClass": "C1EJ4",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4Ejemplo2",
+            "request": "launch",
+            "mainClass": "C4Ejemplo2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ2",
+            "request": "launch",
+            "mainClass": "C4EJ2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C3Ejemplo2",
+            "request": "launch",
+            "mainClass": "C3Ejemplo2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ1",
+            "request": "launch",
+            "mainClass": "C4EJ1",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C3EJ12",
             "request": "launch",
             "mainClass": "C3EJ12",
