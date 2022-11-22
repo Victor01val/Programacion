@@ -18,7 +18,7 @@ public class C4EJ12 {
       nombre = s.nextLine();
       System.out.println(
           "1. Responde a este cuestionario para poner a prueba tus conocimientos sobre las materias de este curso.");
-      System.out.println("¿Cuántos GBs puede tener como máximo una SSD?");
+      System.out.println("¿Cuántos TBs puede tener como máximo una SSD?");
       respuesta1 = s.nextInt();
       if (respuesta1 == 4) {
         acertadas = acertadas + 1;
