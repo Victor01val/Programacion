@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C4EJ12",
+            "request": "launch",
+            "mainClass": "C4EJ12",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ13",
+            "request": "launch",
+            "mainClass": "C4EJ13",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C4EJ9",
             "request": "launch",
             "mainClass": "C4EJ9",
