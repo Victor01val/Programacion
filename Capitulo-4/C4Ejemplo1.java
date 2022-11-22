@@ -1,6 +1,7 @@
-/* Víctor Valverde Olmedo Ejemplo 1
- * Color
- */
+/* 
+*Víctor Valverde Olmedo Ejemplo 1
+*Color
+*/
 import java.util.Scanner;
 public class C4Ejemplo1 {
   public static void main(String args[]) {

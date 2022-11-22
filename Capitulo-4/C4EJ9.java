@@ -1,6 +1,7 @@
-/* Víctor Valverde Olmedo 1 DAW TARDES
- * Resolver la ecuacion de segundo grado
- */
+/* 
+* Víctor Valverde Olmedo 1 DAW TARDES
+* Resolver la ecuacion de segundo grado
+*/
 import java.util.Scanner;
 
 public class C4EJ9 {
@@ -23,7 +24,7 @@ public class C4EJ9 {
       }
 
       if ((num_uno == 0) && (num_dos == 0) && (num_tres != 0)) {
-        System.out.println("La ecuación no tiene solución.");
+        System.out.println("La ecuación no tiene solución."); 
       }
 
       if ((num_uno != 0) && (num_dos != 0) && (num_tres == 0)) {
@@ -39,12 +40,12 @@ public class C4EJ9 {
         resultado = num_dos * num_dos - (4 * num_uno * num_tres);
 
         if (resultado < 0) {
-          System.out.println("La ecuación no tiene soluciones reales");
+          System.out.println("La ecuación no tiene soluciones reales"); //En caso de que el resultado sea 0 no habrian soluciones reales
         } else {
 
-          System.out.println("x1 = " + (-num_dos + Math.sqrt(resultado)) / (2 * num_uno));
+          System.out.println("x1 = " + (-num_dos + Math.sqrt(resultado)) / (2 * num_uno)); //Aqui calculo la raiz cuadrada en caso de que sea positivo y lo divido entre 2, multiplicado por el numero
 
-          System.out.println("x2 = " + (-num_dos - Math.sqrt(resultado)) / (2 * num_uno));
+          System.out.println("x2 = " + (-num_dos - Math.sqrt(resultado)) / (2 * num_uno)); //Aqui calculo la raiz cuadrada en caso de que sea negativo y lo divido entre 2, multiplicado por el numero
           s.close();
         }
       }

@@ -1,7 +1,7 @@
-
-/*Víctor Valverde Olmedo
- * Calcular media 
- */
+/*
+* Víctor Valverde Olmedo
+* Calcular media 
+*/
 import java.util.Scanner;
 
 public class C4EJ7 {

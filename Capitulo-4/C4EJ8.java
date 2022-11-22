@@ -1,6 +1,7 @@
-/*Víctor Valverde Olmedo  1 DAW TARDES
- * Calcular media con resultados
- */
+/*
+* Víctor Valverde Olmedo  1 DAW TARDES
+* Calcular media con resultados
+*/
 import java.util.Scanner;
 
 public class C4EJ8 {
@@ -15,29 +16,29 @@ public class C4EJ8 {
     num_dos = s.nextInt();
     System.out.println("Escribe el tercer número");
     num_tres = s.nextInt();
-    double suma = (num_uno + num_dos + num_tres) / 3;
+    double suma = (num_uno + num_dos + num_tres) / 3; //Hago la media
 
     System.out.println("La media es " + suma);
     if (suma < 5)
     {
 
-      System.out.println("Insuficiente");
+      System.out.println("Insuficiente"); //Aquí pondría un insuficiente
     }
     if (suma >= 5 && suma < 6)
     {
-      System.out.println("Suficiente");
+      System.out.println("Suficiente"); //Aquí pondría un suficiente
     }
     if (suma >= 6 && suma < 7)
     {
-      System.out.println("Bien");
+      System.out.println("Bien"); //Aquí pondría un bien
     }
     if (suma >= 7 && suma < 9)
     {
-      System.out.println("Notable");
+      System.out.println("Notable"); //Aquí pondría un notable
     }
     if (suma >= 9 && suma < 10)
     {
-      System.out.println("Sobresaliente");
+      System.out.println("Sobresaliente"); //Aquí pondría un sobresaliente
     }
     
     s.close(); // Evitar erroes
