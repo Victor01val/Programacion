@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C4EJ9",
+            "request": "launch",
+            "mainClass": "C4EJ9",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ8",
+            "request": "launch",
+            "mainClass": "C4EJ8",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ7",
+            "request": "launch",
+            "mainClass": "C4EJ7",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C4EJ5",
             "request": "launch",
             "mainClass": "C4EJ5",
