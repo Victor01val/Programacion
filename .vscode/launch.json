@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C4Estaciones",
+            "request": "launch",
+            "mainClass": "C4Estaciones",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ28",
+            "request": "launch",
+            "mainClass": "C4EJ28",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ27",
+            "request": "launch",
+            "mainClass": "C4EJ27",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ25",
+            "request": "launch",
+            "mainClass": "C4EJ25",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ24",
+            "request": "launch",
+            "mainClass": "C4EJ24",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ23",
+            "request": "launch",
+            "mainClass": "C4EJ23",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ22",
+            "request": "launch",
+            "mainClass": "C4EJ22",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ21",
+            "request": "launch",
+            "mainClass": "C4EJ21",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ20",
+            "request": "launch",
+            "mainClass": "C4EJ20",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C4EJ14",
+            "request": "launch",
+            "mainClass": "C4EJ14",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C4EJ15",
             "request": "launch",
             "mainClass": "C4EJ15",

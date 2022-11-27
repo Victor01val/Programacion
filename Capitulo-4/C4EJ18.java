@@ -2,23 +2,33 @@
  * Victor Valverde Olmedo 1 DAW TARDES
  * Primera cifra numero entero
  */
-
-import java.util.Scanner;
-
 public class C4EJ18 {
-
   public static void main(String args[]) {
 
-    Scanner s = new Scanner(System.in);
-    int num_uno = 0;
-    int resultado = 0;
+    int n, primera = 0;
+    System.out.print("Introduce un número entero, de 5 cifras como máximo: ");
+    n = Integer.parseInt(System.console().readLine());
 
-    System.out.println("Escribe un número cualquiera");
-    num_uno = s.nextInt();
+    if (n < 10) {
+      primera = n;
+    }
 
-    resultado = num_uno / 10000;
+    if ((n >= 10) && (n < 100)) {
+      primera = n / 10;
+    }
 
-    System.out.println("La primera cifra del número es: " + resultado);
-    s.close(); // Evitar errores
+    if ((n >= 100) && (n < 1000)) {
+      primera = n / 100;
+    }
+
+    if ((n >= 1000) && (n < 10000)) {
+      primera = n / 1000;
+    }
+
+    if (n >= 10000) {
+      primera = n / 10000;
+    }
+
+    System.out.println("La primera cifra del número es: " + primera);
   }
 }
