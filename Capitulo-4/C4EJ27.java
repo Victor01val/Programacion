@@ -1,3 +1,7 @@
+/*
+ * Victor Valverde Olmedo
+ * Factura de una tarta
+ */
 import java.util.Scanner;
 
 public class C4EJ27 {
