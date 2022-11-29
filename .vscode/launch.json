@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C5Ejemplo3",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5Ejemplo3",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C4Estaciones",
             "request": "launch",
             "mainClass": "C4Estaciones",
@@ -277,13 +284,7 @@
             "mainClass": "C3EJ8",
             "projectName": "Programacion_6e8fc838"
         },
-        {
-            "type": "java",
-            "name": "Launch C3EJ7",
-            "request": "launch",
-            "mainClass": "C3EJ7",
-            "projectName": "Programacion_6e8fc838"
-        },
+    
         {
             "type": "java",
             "name": "Launch C3EJ6",
