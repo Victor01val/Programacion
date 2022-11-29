@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C5Ejemplo5",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5Ejemplo5",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5Ejemplo4",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5Ejemplo4",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5Ejemplo2",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5Ejemplo2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5Ejemplo1",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5Ejemplo1",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C5Ejemplo3",
             "request": "launch",
             "mainClass": "Capitulo5.C5Ejemplo3",
@@ -284,7 +319,6 @@
             "mainClass": "C3EJ8",
             "projectName": "Programacion_6e8fc838"
         },
-    
         {
             "type": "java",
             "name": "Launch C3EJ6",
