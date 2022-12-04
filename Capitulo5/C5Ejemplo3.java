@@ -1,5 +1,5 @@
 /*
- * Víctor Valverde Olmedo
+ *@Víctor Valverde Olmedo
  * Suma y producto de los 10 primeros números. Ejemplo 3
  */
 package Capitulo5;

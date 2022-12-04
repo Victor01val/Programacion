@@ -1,5 +1,5 @@
 /*
- * Víctor Valverde Olmedo
+ @Víctor Valverde Olmedo
  * Lista de numeros naturales. Ejemplo 3
  */
 package Capitulo5;

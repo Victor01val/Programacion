@@ -1,5 +1,5 @@
 /*
- * Víctor Valverde Olmedo
+ *@Víctor Valverde Olmedo
  * Suma de numeros pares e impares. Ejemplo 4
  */
 package Capitulo5;

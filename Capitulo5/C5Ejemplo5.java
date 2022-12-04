@@ -1,5 +1,5 @@
 /*
- * Víctor Valverde Olmedo
+ *@Víctor Valverde Olmedo
  * Elevar valor A y B. Ejemplo 5
  */
 package Capitulo5;
