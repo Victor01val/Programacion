@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C5EJ39",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5EJ39",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5EJ17",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5EJ17",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5EJ16",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5EJ16",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C5EJ12",
             "request": "launch",
             "mainClass": "Capitulo5.C5EJ12",
