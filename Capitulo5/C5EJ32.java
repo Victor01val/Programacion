@@ -16,7 +16,6 @@ public class C5EJ32 {
     Scanner s = new Scanner(System.in);
     int n = 0;
     int r = 0;
-    int contador = 0;
     int v = 0;
     int suma = 0;
 
@@ -38,5 +37,6 @@ public class C5EJ32 {
     }
     System.out.print("");
     System.out.print("La suma de los números pares son: " + suma);
+    s.close(); //Evitar errores
   }
 }

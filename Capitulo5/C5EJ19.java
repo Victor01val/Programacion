@@ -15,8 +15,6 @@ public class C5EJ19 {
     Scanner s = new Scanner(System.in);
     int h = 0;
     String c = "";
-    int contador = 0;
-
     System.out.print("Escribe la altura de la piramide: ");
     h = s.nextInt();
 
@@ -29,9 +27,9 @@ public class C5EJ19 {
       }
       for (int k = 0; k <= i + i; k++) {
         System.out.print(c);
-        contador++;
       }
       System.out.println("");
+      s.close(); //Evitar errores
     }
   }
 }

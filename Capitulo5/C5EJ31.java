@@ -24,6 +24,7 @@ public class C5EJ31 {
     r = (n / 2) + 1;
     for (int j = 0; j < r; j++) {
       System.out.print("*");
+      s.close(); //Evitar errores
     }
   }
 }

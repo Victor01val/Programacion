@@ -31,6 +31,7 @@ public class C5EJ33 {
       System.out.print(" ");
       for (int l = 1; l <= h - 2; l++) {
         System.out.print("*");
+        s.close(); //Evitar errores
       }
     }
   }

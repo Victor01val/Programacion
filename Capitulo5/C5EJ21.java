@@ -18,8 +18,6 @@ public class C5EJ21 {
     double contador2 = 0;
     double resultado = 0;
     int par = 0;
-    int c = 0;
-    int aux = 0;
     do {
       System.out.print("Escribe un número positivo (Si desea salir escriba un número negativo): ");
       n = s.nextInt();
@@ -45,5 +43,6 @@ public class C5EJ21 {
     System.out.println("Has introducido " + contador + " números" + " enteros");
     System.out.println("La media de los números impares son: " + resultado);
     System.out.println("El número más grande de los pares es: " + par);
+    s.close(); //Evitar errores
   }
 }

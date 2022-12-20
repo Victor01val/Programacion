@@ -26,6 +26,6 @@ public class C5EJ39 {
       System.out.println(i + "!" + " = " + r);
       r = 1;
     }
-
+    s.close(); //Evitar errores
   }
 }

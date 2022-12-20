@@ -34,6 +34,7 @@ public class C5EJ18 {
       }
     } else {
       System.out.print("Los números deben de ser distintos.");
+      s.close(); //Evitar errores
     }
   }
 }

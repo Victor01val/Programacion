@@ -63,5 +63,6 @@ public class C5EJ34 {
 
     System.out.println("Los números pares son: " + aux);
     System.out.print("Los números impares son: " + aux2);
+    s.close(); //Evitar errores
   }
 }

@@ -28,5 +28,6 @@ public class C5EJ23 {
 
     System.out.println("La suma de todos los números introducidos son: " + suma);
     System.out.print("La media de todos los números introducidos son: " + media);
+    s.close(); //Evitar errores
   }
 }

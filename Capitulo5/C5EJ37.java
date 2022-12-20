@@ -64,6 +64,6 @@ public class C5EJ37 {
       }
       n2 = 0;
     } while (r > 0);
-
+    s.close(); //Evitar errores
   }
 }

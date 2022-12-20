@@ -44,5 +44,6 @@ public class C5EJ41 {
     }
     System.out.println("El " + n + " tiene " + contadorpar + " números pares.");
     System.out.print("El " + n + " tiene " + contadorimpar + " números impares.");
+    s.close(); //Evitar errores
   }
 }

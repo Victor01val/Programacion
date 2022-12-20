@@ -31,6 +31,7 @@ public class C5EJ25 {
         }
       }
       System.out.println("");
+      s.close(); //Evitar errores
     }
   }
 }
