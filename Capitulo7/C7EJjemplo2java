@@ -1,10 +1,8 @@
 /*
  * Víctor Valverde Olmedo 
- * 
  */
 package Capitulo7;
-import java.util.ArrayList;
-public class C7EJ2 {
+public class C7EJjemplo2 {
   public static void main(String args []) {
     char[] caracter = new char[6];
 caracter[0] = 'R';

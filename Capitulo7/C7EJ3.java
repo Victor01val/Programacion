@@ -1,3 +1,7 @@
+/*
+ * Víctor Valverde Olmedo
+ * Array inverso
+ */
 package Capitulo7;
 public class C7EJ3 {
 

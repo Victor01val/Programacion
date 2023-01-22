@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch C7EJ18",
+            "request": "launch",
+            "mainClass": "Capitulo7.C7EJ18",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch CEJ4",
+            "request": "launch",
+            "mainClass": "Capitulo7.CEJ4",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaseArray",
+            "request": "launch",
+            "mainClass": "Capitulo7.BaseArray",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch CEJ3",
+            "request": "launch",
+            "mainClass": "Capitulo7.CEJ3",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "Capitulo7.prueba",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch CEJ2",
+            "request": "launch",
+            "mainClass": "Capitulo7.CEJ2",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C7EJ9",
+            "request": "launch",
+            "mainClass": "Capitulo7.C7EJ9",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C7EJ8",
+            "request": "launch",
+            "mainClass": "Capitulo7.C7EJ8",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C6EJ19",
+            "request": "launch",
+            "mainClass": "Capitulo6.C6EJ19",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C6EJ13",
+            "request": "launch",
+            "mainClass": "Capitulo6.C6EJ13",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C6EJ20",
+            "request": "launch",
+            "mainClass": "Capitulo6.C6EJ20",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C6EJ17",
+            "request": "launch",
+            "mainClass": "Capitulo6.C6EJ17",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C6EJ16",
+            "request": "launch",
+            "mainClass": "Capitulo6.C6EJ16",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch basura",
+            "request": "launch",
+            "mainClass": "basura",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5EJ31",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5EJ31",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C5EJ25",
+            "request": "launch",
+            "mainClass": "Capitulo5.C5EJ25",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C7EJ6",
+            "request": "launch",
+            "mainClass": "Capitulo7.C7EJ6",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch CEJ1",
+            "request": "launch",
+            "mainClass": "Capitulo7.CEJ1",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Launch C7EJ7",
+            "request": "launch",
+            "mainClass": "Capitulo7.C7EJ7",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Launch C6EJ22",
             "request": "launch",
             "mainClass": "Capitulo6.C6EJ22",

@@ -1,3 +1,6 @@
+/*
+ * Víctor Valverde Olmedo
+ */
 package Capitulo7;
 
 import java.util.Scanner;

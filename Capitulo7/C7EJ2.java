@@ -1,3 +1,7 @@
+/*
+ * Víctor Valverde Olmedo
+ * Define un array de 12 con signos char
+ */
 package Capitulo7;
 
 public class C7EJ2 {

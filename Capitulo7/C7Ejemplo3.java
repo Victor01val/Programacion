@@ -3,7 +3,7 @@
  * 
  */
 package Capitulo7;
-import java.util.ArrayList;
+
 public class C7Ejemplo3 {
   public static void main(String args []) {
     double[] nota = new double[4];

@@ -1,3 +1,7 @@
+/*
+ * Víctor Valverde Olmedo
+ * Define un array de 12 numeros y completa
+ */
 package Capitulo7;
 
 public class C7EJ1 {

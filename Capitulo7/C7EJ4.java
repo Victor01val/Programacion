@@ -1,3 +1,7 @@
+/*
+ * Víctor Valverde Olmedo
+ * Array con el numero, el cuadrado y el cubo de 20 numeros aleatorios entre 0 y 100
+ */
 package Capitulo7;
 
 public class C7EJ4 {
