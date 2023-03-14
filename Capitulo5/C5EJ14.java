@@ -23,6 +23,7 @@ public class C5EJ14 {
 		
     for(int i = 0; i < e; i++){
       n*= b;
+     
     }
       System.out.print(b + "^" + e + " = " + n);
       s.close(); //Evitar errores

@@ -16,7 +16,7 @@ public class CEJ5 {
   int cj = 0;
   int ci2 = 0;
   int cj2 = 0;
-  
+                            
   for(int i = 0; i < 6; i++){
     for(int j = 0; j < 10; j++){
       n[i][j] =(int)(Math.random()*1001);
