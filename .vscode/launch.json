@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gato",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Gato",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "C7EJ14",
+            "request": "launch",
+            "mainClass": "Capitulo7.C7EJ14",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Tienda",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Tienda",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Ejercicio1Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio5Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Ejercicio5Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Ejercicio2Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Capitulo9.TarjetaRegalo.Main",
