@@ -59,18 +59,20 @@ public class Tienda {
 
   }
 
+
+  // AQUÍ ESTA EL EJECUTABLE
   public static void main(String args[]) {
     int codigo;
     String descripcion;
     double precioCompra;
     double precioVenta;
     int stock;
-
-    Tienda articulo[] = new Tienda[100];
+  // Definicion de variables
+    Tienda articulo[] = new Tienda[100]; // Creamos un array de 100 articulos como maximo
     for (int i = 0; i < articulo.length; i++) {
       articulo[i] = new Tienda();
     }
-
+// Mientras que i sea inferior a la longitud del array, el contador va sumando y va creando articulos
     Scanner s = new Scanner(System.in);
     {
       int o = 0;
@@ -86,6 +88,7 @@ public class Tienda {
               if (articulo[i].getCodigo() != 0)
                 System.out.println(articulo[i]);
             }
+            // Va recorriendo el array, y ponemos una condicion que es que si no es 0 el codigo imprima el articulo. Si es 0 no tiene que aparecer
             break;
           case 2:
 
@@ -93,7 +96,7 @@ public class Tienda {
             do {
               primero++;
             } while (articulo[primero].getCodigo() != 0);
-
+            // Va recorriendo cada uno de los articulos del array mientras el codigo no sea 0
             System.out.println("Introduzca los siguientes datos para el alta del producto:");
             System.out.println("Codigo: (entero)");
             codigo = s.nextInt();
