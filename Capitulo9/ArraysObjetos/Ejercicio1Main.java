@@ -5,7 +5,6 @@ import Capitulo9.Objetos.Animales.Gato;
 public class Ejercicio1Main {
 
   public static void main(String args[]) {
-    Ejercicio1Main sardinas[] = new Ejercicio1Main[10];
    
 
 
@@ -25,9 +24,7 @@ public class Ejercicio1Main {
         }
         System.out.println("\n\n\n\nDatos de los gatos");
         for (i = 0; i < 4; i++) {
-          for (int j = 0; j < sardinas.length; i++) {
-            sardinas[i] = new Ejercicio1Main();
-            System.out.println(sardinas[i]);
+          
           
           System.out.println("\nGato n: " + (i + 1));
           System.out.println("Nombre: " + gato[i].getNombre());
@@ -39,6 +36,6 @@ public class Ejercicio1Main {
         }
       }
     
-    }
+    
     
 
