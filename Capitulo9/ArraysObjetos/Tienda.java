@@ -1,17 +1,18 @@
 /*
  * Víctor Valverde Olmedo
- * (Ejercicio de JAVA más dificil hasta la fecha)
+ * (Ejercicio de JAVA más dificil hasta la fecha) <---------------- (Anotacion personal para identificar el ejerficio...)
  */
 package Capitulo9.ArraysObjetos;
 
 import java.util.Scanner;
 public class Tienda {
+    // Declaracion de variables
   private int codigo;
   private String descripcion;
   private double precioCompra;
   private double precioVenta;
   private int stock;
-
+  // Lista de metodos
   public int getCodigo() {
     return this.codigo;
   }
