@@ -116,12 +116,12 @@ public class Tienda {
                 i++;
                 precioCompra = s.nextDouble();
               } while (precioCompra < 0);
-
+//El bucle no acaba hasta que se introduce un numero mayor a 0
             }
             if (precioCompra > 0) {
               articulo[primero].setPrecioCompra(precioCompra);
             }
-
+//Si el precio es mayor de 0, la variable del array se cambia al puesto por teclado 
             System.out.println("precio de venta:");
             precioVenta = s.nextDouble();
             if (precioVenta < 0) {
@@ -132,11 +132,12 @@ public class Tienda {
                 i++;
                 precioVenta = s.nextDouble();
               } while (precioVenta < 0);
-
+//El bucle no acaba hasta que se introduce un numero mayor a 0
             }
             if (precioVenta > 0) {
               articulo[primero].setPrecioVenta(precioVenta);
             }
+            //Si el precio es mayor de 0, la variable del array se cambia al puesto por teclado (Igual que el precio de la compra)
             System.out.println("Stock: ");
             stock = s.nextInt();
 
@@ -148,13 +149,14 @@ public class Tienda {
                 i++;
                 stock = s.nextInt();
               } while (stock < 0);
-
+//El bucle no acaba hasta que se introduce un numero mayor a 0
             }
             if (stock > 0) {
               articulo[primero].setStock(stock);
+                   //Si el stock es mayor de 0, la variable del array se cambia al puesto por teclado 
             }
 
-            articulo[primero].setStock(stock);
+           
             break;
           case 3:
             System.out.println("Introduzca los siguientes datos para la baja del producto:");
@@ -165,6 +167,8 @@ public class Tienda {
               i++;
             } while ((articulo[i].getCodigo() != (codigo)));
             articulo[i].setCodigo(0);
+            //El bucle empieza por -1 y va recorriendo todas las posiciones. Si encuentra uno que sea 0, directamente desaparece del listado,
+            // ya que en la línea 89 pusimos esa condicion para el listado
             break;
           case 4:
 
