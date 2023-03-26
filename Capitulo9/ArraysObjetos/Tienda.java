@@ -32,7 +32,7 @@ public class Tienda {
   public double getPrecioCompra(double precioCompra) {
     return this.precioCompra;
   }
-
+                                                                            
   public void setPrecioCompra(double precioCompra) {
     this.precioCompra = precioCompra;
   }
