@@ -1,4 +1,4 @@
-package Capitulo9.ArraysObjetos;
+package Capitulo9.ArraysObjetos.Gatos2;
 import java.util.Scanner;
 import Capitulo9.Objetos.Animales.Gato;
 
@@ -6,7 +6,7 @@ public class Ejercicio1Main {
 
   public static void main(String args[]) {
    
-
+//Aqui reutilizo los metodos de la carpeta /Objetos/Animales/Gato
 
     Scanner s = new Scanner(System.in); {
         Gato[] gato = new Gato[4];

@@ -2,7 +2,7 @@
  * Víctor Valverde Olmedo
  * (Ejercicio de JAVA más dificil hasta la fecha) <---------------- (Anotacion personal para identificar el ejerficio...)
  */
-package Capitulo9.ArraysObjetos;
+package Capitulo9.ArraysObjetos.Tienda;
 
 import java.util.Scanner;
 public class Tienda {

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GatosComiendoPescado",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.GatosComiendoPescado",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "Gato",
             "request": "launch",
             "mainClass": "Capitulo9.ArraysObjetos.Gato",
