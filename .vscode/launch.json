@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Vehiculos.Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Animales.Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.EmpresayEmpleados.Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Banco.Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Astros",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Astros.Astros",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
             "name": "GatosComiendoPescado",
             "request": "launch",
             "mainClass": "Capitulo9.ArraysObjetos.GatosComiendoPescado",
