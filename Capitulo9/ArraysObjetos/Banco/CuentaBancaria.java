@@ -31,7 +31,7 @@ public abstract class CuentaBancaria {
       destino.ingresar(cantidad);
   }
 
-  protected void añadir(double cantidad) {
+  public void añadir(double cantidad) {
       saldo += cantidad;
   }
 
