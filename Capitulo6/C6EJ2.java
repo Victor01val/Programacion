@@ -1,6 +1,6 @@
 /*
  * Víctor Valverde Olmedo
- * Muestra al azar un nombre de una baraja francesa
+ * Muestra al azar un nombre de una baraja francesañ
  */
 package Capitulo6;
 
