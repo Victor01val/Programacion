@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Fichas.Main",
+            "projectName": "Programacion_6e8fc838"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Capitulo9.ArraysObjetos.Vehiculos.Main",
             "projectName": "Programacion_6e8fc838"
         },
