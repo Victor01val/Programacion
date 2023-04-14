@@ -20,5 +20,6 @@ public class Ejercicio8 {
 System.out.println("El valor intermedio entre  " +i+ "  y " +n+ "  es  " +Varias.media(n, i));
       }
     }
+    s.close();
   }
 }

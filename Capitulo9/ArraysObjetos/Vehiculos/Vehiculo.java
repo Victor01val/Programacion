@@ -1,5 +1,4 @@
 package Capitulo9.ArraysObjetos.Vehiculos;
-import java.util.ArrayList;
 
 //La clase abstracta Vehiculo, que tiene dos atributos privados
  abstract class Vehiculo {

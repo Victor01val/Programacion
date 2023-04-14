@@ -3,8 +3,7 @@ package Capitulo9.Objetos.Entradas;
 public class Main {
   public static void main(String args[]) {
     int opcion = 0;
-  int opcion2 = 0;
-    Zona principal = new Zona(1000);
+  Zona principal = new Zona(1000);
     Zona compraventa = new Zona(200);
     Zona VIP = new Zona(25);
     while (opcion < 3) {
@@ -28,7 +27,6 @@ public class Main {
         System.out.println("3. VIP");
         System.out.println("4. Salir");
 
-        opcion2 = Integer.parseInt(System.console().readLine());
         if (opcion < 4) {
           System.out.println("Elige la zona:  ");
           System.out.print("¿Cuántas entradas quiere? ");

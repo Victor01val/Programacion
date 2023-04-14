@@ -21,5 +21,6 @@ public class Ejercicio9 {
         System.out.println(segundovalor);
       }
   }
+  s.close();
   }
   }

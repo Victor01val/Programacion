@@ -1,7 +1,7 @@
 package Capitulo9.ArraysObjetos.Animales;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class Inventario { // Creamos la clase Inventario que almacenará una lista de todos los animales
                           // existentes en la tienda de mascotas

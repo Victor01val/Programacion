@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tienda",
+            "request": "launch",
+            "mainClass": "Capitulo9.ArraysObjetos.Tienda.Tienda",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3",
+            "request": "launch",
+            "mainClass": "Capitulo14.Ejercicio3",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Capitulo14.Ejercicio2.Main",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2",
+            "request": "launch",
+            "mainClass": "Ejercicio2",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1",
+            "request": "launch",
+            "mainClass": "Capitulo14.Ejercicio1",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "TodasLasOpciones",
+            "request": "launch",
+            "mainClass": "Capitulo14.TodasLasOpciones",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayIndexOutOfBoundsExceptionn",
+            "request": "launch",
+            "mainClass": "Capitulo14.ArrayIndexOutOfBoundsExceptionn",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "FileNotFoundExceptionn",
+            "request": "launch",
+            "mainClass": "Capitulo14.FileNotFoundExceptionn",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "NumberFormatExceptionn",
+            "request": "launch",
+            "mainClass": "Capitulo14.NumberFormatExceptionn",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayIndexOutOfBoundsException",
+            "request": "launch",
+            "mainClass": "Capitulo14.ArrayIndexOutOfBoundsException",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "Arithmetic",
+            "request": "launch",
+            "mainClass": "Capitulo14.Arithmetic",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "StackOverFlow",
+            "request": "launch",
+            "mainClass": "Capitulo14.StackOverFlow",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "ProbarExcepciones",
+            "request": "launch",
+            "mainClass": "Capitulo14.ProbarExcepciones",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "StackOverFlowError",
+            "request": "launch",
+            "mainClass": "Capitulo14.StackOverFlowError",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
+            "name": "ProbarExcepciones",
+            "request": "launch",
+            "mainClass": "ProbarExcepciones",
+            "projectName": "Programacion_b191863a"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Capitulo9.ArraysObjetos.Fichas.Main",

@@ -12,5 +12,6 @@ public class Ejercicio11 {
       Varias.tabla(n);
 
     }
+    s.close();
   }
 }

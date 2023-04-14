@@ -31,5 +31,6 @@ public class Ejercicio2 {
       }
 
     }
+    s.close();
   }
 }

@@ -61,7 +61,6 @@ public class Tienda {
   }
 
 
-  // AQUÍ ESTA EL EJECUTABLE
   public static void main(String args[]) {
     int codigo;
     String descripcion;
@@ -110,10 +109,8 @@ public class Tienda {
             precioCompra = s.nextDouble();
             if (precioCompra < 0) {
 
-              int i = 0;
               do {
                 System.out.println("Escriba un precio correcto");
-                i++;
                 precioCompra = s.nextDouble();
               } while (precioCompra < 0);
 //El bucle no acaba hasta que se introduce un numero mayor a 0
@@ -126,10 +123,8 @@ public class Tienda {
             precioVenta = s.nextDouble();
             if (precioVenta < 0) {
 
-              int i = 0;
               do {
                 System.out.println("Escriba un precio correcto");
-                i++;
                 precioVenta = s.nextDouble();
               } while (precioVenta < 0);
 //El bucle no acaba hasta que se introduce un numero mayor a 0
@@ -143,10 +138,8 @@ public class Tienda {
 
             if (stock < 0) {
 
-              int i = 0;
               do {
                 System.out.println("Escriba un stock correcto");
-                i++;
                 stock = s.nextInt();
               } while (stock < 0);
 //El bucle no acaba hasta que se introduce un numero mayor a 0

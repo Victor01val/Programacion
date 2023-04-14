@@ -5,10 +5,9 @@ public class Gato extends Animales {
   private String nombre;
   private String color;
   private String raza;
-private String sardinas;
+
   public Gato() {
     super();
-    this.sardinas = sardinas;
   }
 
   public void moverCola() {

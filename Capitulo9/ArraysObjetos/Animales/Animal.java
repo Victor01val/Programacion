@@ -1,7 +1,5 @@
 package Capitulo9.ArraysObjetos.Animales;
 
-import java.util.ArrayList;
-import java.util.Scanner;
 // Creamos la clase Animal, de la que heredarán las clases concretas de cada tipo de animal
 
 public class Animal {
