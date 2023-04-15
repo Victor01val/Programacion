@@ -12,9 +12,11 @@ public class Main {
         {
             System.out.print("Ingrese el sexo del gato: ");
             String sexo = s.nextLine();
-            Gato garfield = new Gato(sexo); // Crea un objeto Gato con el sexo ingresado por el usuario
-            Gato tom = new Gato("macho"); // Crea un objeto Gato con el sexo "macho"
-            garfield.aparear(tom);  // Llama al método aparear() en el objeto garfield
+            Gato gato1 = new Gato(sexo); // Crea un objeto Gato con el sexo ingresado por el usuario
+            System.out.print("Ingrese el sexo del gato: ");
+             sexo = s.nextLine();
+            Gato gato2 = new Gato(sexo);
+            gato1.aparear(gato2);  // Llama al método aparear() en el objeto garfield
         }
         s.close();
     }

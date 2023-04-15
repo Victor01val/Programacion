@@ -97,7 +97,7 @@ public class TodasLasOpciones {
                     System.out.println("Opción inválida.");
                     break;
             }
-            s.close();
+          
         } while (opcion != 6);
     }
 
