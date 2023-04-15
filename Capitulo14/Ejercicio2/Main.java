@@ -16,7 +16,7 @@ public class Main {
             System.out.print("Ingrese el sexo del gato: ");
              sexo = s.nextLine();
             Gato gato2 = new Gato(sexo);
-            gato1.aparear(gato2);  // Llama al método aparear() en el objeto garfield
+            gato1.aparear(gato2);  // Llama al método aparear() en el objeto gato
         }
         s.close();
     }
