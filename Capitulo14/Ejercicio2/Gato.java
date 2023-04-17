@@ -13,7 +13,7 @@ public class Gato {
         if(this.sexo.equals(pareja.sexo)) { // Compara los sexos de los dos objetos Gato
             throw new Excepcion(); // Lanza una excepción si los sexos son iguales
         } else {
-            System.out.println("Apareando");
+            System.out.println("Apareando...");
         }
         String s = (int)(Math.random() * 2) == 0 ? "hembra" : "macho"; //Se compara con un operador ternario "?", si sale 0, se hembra, de lo contrario será macho
         return new Gato(s);
