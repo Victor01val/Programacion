@@ -99,7 +99,9 @@ public class TodasLasOpciones {
             }
           
         } while (opcion != 6);
+        s.close();
     }
+   
 
     public static int dividir(int a, int b) {
         int resultado = a / b;
