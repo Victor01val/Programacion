@@ -53,7 +53,7 @@ public class Tienda {
     this.stock = stock;
   }
 
-  public String toString() {
+  public String toString() { //Funcion toString para imprimir los objetos
 
     return "\nCódigo: " + this.codigo + "\nDescripción: " + this.descripcion + "\nPrecio de compra: "
         + this.precioCompra + "\nPrecio de venta: " + this.precioVenta + "\nStock: " + this.stock + " unidades";
@@ -90,7 +90,7 @@ public class Tienda {
             break;
           case 2:
 
-          Tienda articuloNuevo = new Tienda();
+          Tienda articuloNuevo = new Tienda(); //Creamos array
           System.out.println("Introduzca los siguientes datos para dar de alta el producto:");
           System.out.println("Codigo:");
           codigo = s.nextInt();
@@ -107,7 +107,7 @@ public class Tienda {
           System.out.println("Stock:");
           stock = s.nextInt();
           articuloNuevo.setStock(stock);
-          articulos.add(articuloNuevo);
+          articulos.add(articuloNuevo); 
           
            
             break;
@@ -116,7 +116,7 @@ public class Tienda {
                     System.out.println("Codigo:");
                     codigo = s.nextInt();
                     for (Tienda articulo : articulos) {
-                        if (articulo.getCodigo() == codigo) {
+                        if (articulo.getCodigo() == codigo) { //El ArrayList recorre todo el array, si encuentra el codigo, lo retira
                             articulos.remove(articulo);
                            
                         }
@@ -133,7 +133,7 @@ public class Tienda {
                   System.out.println("Codigo:");
                   codigo = s.nextInt();
                   for (Tienda articulo : articulos) {
-                    if (articulo.getCodigo() == codigo) {
+                    if (articulo.getCodigo() == codigo) { //El ArrayList recorre todo el array, si encuentra el codigo, modifica el codigo
                         articulo.setCodigo(codigo);
                        
                     }
@@ -147,7 +147,7 @@ public class Tienda {
                   descripcion = System.console().readLine();
                   for (Tienda articulo : articulos) {
                     if (articulo.getCodigo() == codigo) {
-                        articulo.setdescripcion(descripcion);
+                        articulo.setdescripcion(descripcion); //El ArrayList recorre todo el array, si encuentra el codigo, modifica la descripcion
                        
                     }
                 }
@@ -161,7 +161,7 @@ public class Tienda {
                 precioCompra = s.nextInt();
                 for (Tienda articulo : articulos) {
                   if (articulo.getCodigo() == codigo) {
-                      articulo.setPrecioCompra(precioCompra);
+                      articulo.setPrecioCompra(precioCompra); //El ArrayList recorre todo el array, si encuentra el codigo, modifica el precio
                      
                   }
               }
@@ -173,7 +173,7 @@ public class Tienda {
                 precioVenta = s.nextInt();
                 for (Tienda articulo : articulos) {
                   if (articulo.getCodigo() == codigo) {
-                      articulo.setPrecioVenta(precioVenta);
+                      articulo.setPrecioVenta(precioVenta); //El ArrayList recorre todo el array, si encuentra el codigo, modifica el precio
                      
                   }
               }
@@ -185,7 +185,7 @@ public class Tienda {
                 stock = s.nextInt();
                 for (Tienda articulo : articulos) {
                   if (articulo.getCodigo() == codigo) {
-                      articulo.setStock(stock);
+                      articulo.setStock(stock); //El ArrayList recorre todo el array, si encuentra el codigo, modifica el stock
                      
                   }
               }
@@ -203,7 +203,7 @@ public class Tienda {
                 for (Tienda articulo : articulos) {
                   int nuevoStock = articulo.getStock() + stock;
                   if (articulo.getCodigo() == codigo) {
-                    articulo.setStock(nuevoStock);
+                    articulo.setStock(nuevoStock); //El ArrayList recorre todo el array, si encuentra el codigo, modifica el precio
                      
                   }
               }
@@ -216,8 +216,8 @@ public class Tienda {
           for (Tienda articulo : articulos) {
             int nuevoStock = articulo.getStock() - stock;
             if (articulo.getCodigo() == codigo) {
-                articulo.setStock(nuevoStock);
-               
+                articulo.setStock(nuevoStock); //El ArrayList recorre todo el array, si encuentra el codigo, modifica el precio
+                
             }
         }
             break;
