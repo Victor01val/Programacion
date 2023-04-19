@@ -1,3 +1,7 @@
+/**
+ * @Víctor
+ * Banco con cuenta de ahorro y cuenta corriente
+ */
 package Capitulo10.Banco;
 import java.util.ArrayList;
 public class Main {

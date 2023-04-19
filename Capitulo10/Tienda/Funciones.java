@@ -1,3 +1,7 @@
+/**
+ * @Víctor
+ * Tienda que muestra varias opciones, como listar los articulos, dar de alta, modificar, dar de baja, añadir y reducir mercancia, etc.
+ */
 package Capitulo10.Tienda;
 
 public class Funciones {
