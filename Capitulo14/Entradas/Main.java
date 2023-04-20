@@ -40,9 +40,9 @@ public class Main {
         // Si se eligió una zona válida
         if (zonaElegida < 4) {
           System.out.print("¿Cuántas entradas quiere? ");
-          int entradas = Integer.parseInt(System.console().readLine());
-          
           try {
+            int entradas = Integer.parseInt(System.console().readLine());
+            
             // Vender las entradas en la zona correspondiente
             if(zonaElegida == 1){
               principal.vender(entradas);
@@ -51,8 +51,10 @@ public class Main {
             } else if(zonaElegida == 3){
               VIP.vender(entradas);
             }
-          } catch (Exception e) {
+          } catch (NumberFormatException e){
             // Manejo de excepciones
+            System.out.println("Introduce numeros, no letras");
+          } catch (Exception e) {
             System.out.println("Se ha producido un error de tipo " + e.getClass().getName() + ": " + e.getMessage());
           }
         }
