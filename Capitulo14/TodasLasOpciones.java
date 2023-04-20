@@ -14,7 +14,6 @@ public class TodasLasOpciones {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int opcion;
-        try {
             do {
                 System.out.println(
                         "Seleccione el tipo de error que quiere comprobar\n1.- ArithmeticError\n2.- ArrayIndexoutofBoundsException\n3.- NumberFormatException\n4.- FileNotFoundException\n5.- StackOverFlowError\n6.- Salir");
@@ -101,13 +100,8 @@ public class TodasLasOpciones {
                 }   catch (StackOverflowError e) {
                     System.out.println("StackOverflowError!");
                 }
-
             } while (opcion != 6);
             s.close();
-        } finally { //(Si no lo pongo, me pone error de código)
-
-        }
-
     }
 
     public static int dividir(int a, int b) {
