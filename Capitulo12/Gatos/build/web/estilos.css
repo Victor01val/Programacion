@@ -1,0 +1,117 @@
+:root {
+display: block;
+}
+.secundario {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666666;
+  margin: 0;
+  padding: 0;
+}
+.acciongato {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 150px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+margin-right: 20px;
+}
+
+.arrow_box {
+position: relative;
+background-color: #f7fafc;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+margin: 10px;
+font-size: 24px;
+color: #4a5568;
+text-align: center;
+}
+
+
+
+
+
+
+.titulo {
+    font-size: 30px;
+
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: #1e90ff;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+select {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3E8E41;
+}
+
+/* Estilos específicos para el formulario */
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos para los select */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #FFFFFF;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 40px;
+}

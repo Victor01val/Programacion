@@ -1,0 +1,175 @@
+/* Estilos para el body */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Estilos para el h1 */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilos para el formulario */
+form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+/* Estilos para los labels */
+label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los input y select */
+input[type="text"], select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilos para el botón de submit */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Estilos para los títulos de las rondas */
+strong {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Estilos para los resultados de las rondas */
+p + p {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el hr */
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Estilos para el h2 del ganador */
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-top: 30px;
+}
+
+
+/* Estilos generales */
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+/* Estilos para los jugadores */
+.jugador {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.jugador .nombre {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.jugador .imagen {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Estilos para los resultados */
+.resultado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resultado .jugada {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resultado .ganador {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6ab04c;
+}
+
+/* Estilos para los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6ab04c;
+  border: 1px solid #6ab04c;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4f8a3c;
+  border-color: #4f8a3c;
+}
